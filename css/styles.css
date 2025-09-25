@@ -4,3 +4,12 @@ body{
 p {
     color: orangered;
 }
+#products{
+    color: blue;
+}
+.product{
+    color: hotpink;
+}
+a[href^="https"]{
+    color: rebeccapurple;
+}
