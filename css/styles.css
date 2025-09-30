@@ -71,3 +71,8 @@ strong {
     color: plum;
     border: inherit;
 }
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(4, 181, 122);
+}
