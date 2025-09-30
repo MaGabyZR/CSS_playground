@@ -10,7 +10,7 @@ body{
 a[href^="https"]{
     color: rebeccapurple;
 }
-article :first-child{
+article:first-child{
     font-size: 140%;
     font-style: italic;
 }
@@ -22,7 +22,7 @@ article p:last-of-type {
     font-weight: bold;
     color: palegoldenrod;
 }
-article :last-child {
+article:last-child {
     font-weight: bold;
     color: orange;
 }
@@ -35,4 +35,22 @@ a:visited, a:link {
 }
 a:hover, a:focus {
     color: darkorchid;
+}
+p::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+}
+p::first-line {
+    font-weight: bold;
+}
+::selection {
+    background-color: rgb(241, 171, 208);
+}
+p::before {
+    content: "...";
+    display: block;
+}
+p::after {
+    content: "***";
+    display: block;
 }
