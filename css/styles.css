@@ -63,3 +63,11 @@ h1 {
 .highlight#products {
     color: rgb(137, 22, 22);
 }
+p {
+    color: purple;
+    border: 1px solid black;
+}
+strong {
+    color: plum;
+    border: inherit;
+}
