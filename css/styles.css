@@ -63,6 +63,10 @@ h1 {
 .highlight#products {
     color: rgb(137, 22, 22);
 }
+h2 {
+    color: antiquewhite;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
 p {
     color: purple;
     border: 1px solid black;
@@ -87,6 +91,7 @@ strong {
     border: 10px dotted deepskyblue;
     border-bottom: 10px solid deepskyblue;
     border-radius: 45px;
+    box-shadow: 10px 10px 10px rgb(74, 72, 72);
 }
 .box3 {
     width: 400px;
