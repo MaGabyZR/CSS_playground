@@ -75,15 +75,24 @@ strong {
     width: 200px;
     height: 200px;
     background-color: rgb(4, 181, 122);
+    border: 10px solid tomato;
+    border-top: 10px dotted tomato;
+    border-width: 20px 10px 20px 10px;
+    border-radius: 100%;
 }
 .box2 {
     width: 200px;
     height: 200px;
     background: linear-gradient(to bottom right, deeppink, gray, rgb(95, 95, 224));
+    border: 10px dotted deepskyblue;
+    border-bottom: 10px solid deepskyblue;
+    border-radius: 45px;
 }
 .box3 {
     width: 400px;
     height: 200px;
     background: #2A7B9B;
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border: 10px dashed tomato;
+    border-radius: 10px;
 }
