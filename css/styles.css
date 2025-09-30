@@ -1,7 +1,7 @@
 body{
     margin: 10px;
 }
-#products ~ p {
+#products {
     color: orangered;
 }
 .product{
@@ -53,4 +53,13 @@ p::before {
 p::after {
     content: "***";
     display: block;
+}
+h1 {
+    color: darkolivegreen;
+}
+.highlight {
+    color: deeppink;
+}
+.highlight#products {
+    color: rgb(137, 22, 22);
 }
